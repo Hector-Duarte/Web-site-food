@@ -600,28 +600,16 @@ video {
   left: 0px;
 }
 
+.right-4{
+  right: 1rem;
+}
+
 .top-0{
   top: 0px;
 }
 
-.top-\[\]{
-  top: ;
-}
-
-.top-\[0\]{
-  top: 0;
-}
-
-.top-\[0\.7re\]{
-  top: 0.7re;
-}
-
 .top-\[0\.7rem\]{
   top: 0.7rem;
-}
-
-.right-4{
-  right: 1rem;
 }
 
 .z-50{
@@ -668,10 +656,6 @@ video {
   gap: 1.25rem;
 }
 
-.border{
-  border-width: 1px;
-}
-
 .border-b{
   border-bottom-width: 1px;
 }
@@ -696,7 +680,7 @@ video {
 }
 
 .font-oswald{
-  font-family: Oswand, sans-serif;
+  font-family: Oswald, sans-serif;
 }
 
 .text-2xl{
@@ -736,4 +720,48 @@ video {
 .hover\:text-secondaryColor:hover{
   --tw-text-opacity: 1;
   color: rgb(255 204 0 / var(--tw-text-opacity));
+}
+
+@media (min-width: 768px){
+  .md\:static{
+    position: static;
+  }
+
+  .md\:ml-auto{
+    margin-left: auto;
+  }
+
+  .md\:block{
+    display: block;
+  }
+
+  .md\:hidden{
+    display: none;
+  }
+
+  .md\:w-auto{
+    width: auto;
+  }
+
+  .md\:flex-row{
+    flex-direction: row;
+  }
+
+  .md\:flex-wrap{
+    flex-wrap: wrap;
+  }
+
+  .md\:border-none{
+    border-style: none;
+  }
+
+  .md\:py-0{
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+
+  .md\:py-5{
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+  }
 }

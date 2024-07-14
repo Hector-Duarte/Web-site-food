@@ -28,32 +28,33 @@
     <header class="bg-primaryColor fixed top-0 left-0 w-full z-50">
       <nav class="container relative h-14 flex justify-between items-center">
         <div>
-          <a href="#" class="text-2xl uppercase">
-            Bur<span class="text-secondaryColor font-oswald">ger</span>
+          <a href="#" class="text-2xl uppercase font-oswald">
+            Bur<span class="text-secondaryColor ">ger</span>
           </a>
         </div>
 
-        <section class="hidden absolute top-0 left-0 w-full py-14 bg-primaryColor border-b
-        border-secondaryColor" id="nav-menu">
-          <ul class="flex flex-col text-center gap-5">
+        <section class="hidden absolute top-0 left-0 w-full py-14 bg-primaryColor 
+        border-b border-secondaryColor md:block md:static md:py-0 
+        md:border-none md:w-auto md:ml-auto gap-5" id="nav-menu">
+          <ul class="flex flex-col text-center gap-5 md:flex-row">
             <li>
-              <a href="#home" class="hover:text-secondaryColor duration-200">Home</a>
+              <a href="#home" class="nav__link hover:text-secondaryColor duration-200">Home</a>
             </li>
             <li>
-              <a href="#abaut" class="hover:text-secondaryColor duration-200">Abaut</a>
+              <a href="#abaut" class="nav__link hover:text-secondaryColor duration-200">Abaut</a>
             </li>
             <li>
-              <a href="#menu" class="hover:text-secondaryColor duration-200" >Menu</a>
+              <a href="#menu" class="nav__link hover:text-secondaryColor duration-200" >Menu</a>
             </li>
             <li>
-              <a href="#review" class="hover:text-secondaryColor duration-200 ">Review</a>
+              <a href="#review" class="nav__link hover:text-secondaryColor duration-200 ">Review</a>
             </li>
             <li>
-              <a href="#contact" class="hover:text-secondaryColor duration-200 ">Contacto</a>
+              <a href="#contact" class="nav__link hover:text-secondaryColor duration-200 ">Contacto</a>
             </li>
           </ul>
 
-           <div class="absolute top-[0.7rem] right-4 text-2xl cursor-pointer ">
+           <div class="absolute top-[0.7rem] right-4 text-2xl cursor-pointer md:hidden ">
           <i class="ri-close-line" id="nav-close"></i>
         </div>
         </section>
@@ -61,7 +62,7 @@
         <div class="flex items-center gap-5">
           <i class="ri-moon-line cursor-pointer ml-4 text-xl "></i>
 
-          <div id="hamburger">
+          <div class="md:hidden" id="hamburger">
             <i class="ri-menu-2-line cursor-pointer text-xl "></i>
           </div>
         </div>
